@@ -1,0 +1,293 @@
+digraph G {
+	node [shape=ellipse style=filled]
+	{
+		rank=same
+		4 [label="Earth🌍" fillcolor="#F0F0F0"]
+		1 [label="Water💧" fillcolor="#F0F0F0"]
+		3 [label="Wind🌬️" fillcolor="#F0F0F0"]
+		2 [label="Fire🔥" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		5 [label="Mountain🏔️" fillcolor="#F0F0F0"]
+		8 [label="Plant🌱" fillcolor="#F0F0F0"]
+		12 [label="Dust🌫️" fillcolor="#F0F0F0"]
+		14 [label="Steam💨" fillcolor="#F0F0F0"]
+		15 [label="Smoke💨" fillcolor="#F0F0F0"]
+		16 [label="Lake🌊" fillcolor="#F0F0F0"]
+		102 [label="Wave🌊" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		6 [label="Volcano🌋" fillcolor="#F0F0F0"]
+		9 [label="Tree🌳" fillcolor="#F0F0F0"]
+		17 [label="Ash🌋" fillcolor="#F0F0F0"]
+		38 [label="Mud💩" fillcolor="#F0F0F0"]
+		62 [label="Engine🚗" fillcolor="#F0F0F0"]
+		106 [label="Fog🌫️" fillcolor="#F0F0F0"]
+		115 [label="Ocean🌊" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		7 [label="Lava🌋" fillcolor="#F0F0F0"]
+		10 [label="Forest🌲" fillcolor="#F0F0F0"]
+		18 [label="Cinder🌋" fillcolor="#F0F0F0"]
+		33 [label="River🌊" fillcolor="#F0F0F0"]
+		103 [label="Train🚂" fillcolor="#F0F0F0"]
+		104 [label="Phoenix🔥" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		11 [label="Stone🪨" fillcolor="#F0F0F0"]
+		101 [label="Eruption🌋" fillcolor="#F0F0F0"]
+		28 [label="Paper📃" fillcolor="#F0F0F0"]
+		105 [label="Rebirth🌱" fillcolor="#F0F0F0"]
+		27 [label="Wood🌲" fillcolor="#F0F0F0"]
+		114 [label="Firebird🐦" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		13 [label="Rock🪨" fillcolor="#F0F0F0"]
+		20 [label="Statue🗽" fillcolor="#F0F0F0"]
+		21 [label="Obsidian🔪" fillcolor="#F0F0F0"]
+		107 [label="Steamroller🚂" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		19 [label="Boulder🪨" fillcolor="#F0F0F0"]
+		22 [label="Blade🗡️" fillcolor="#F0F0F0"]
+		78 [label="Sphinx🐫" fillcolor="#F0F0F0"]
+		108 [label="Robot🤖" fillcolor="#F0F0F0"]
+		77 [label="Golem🏛️" fillcolor="#F0F0F0"]
+		116 [label="Island🏝️" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		23 [label="Knife🔪" fillcolor="#F0F0F0"]
+		25 [label="Axe🪓" fillcolor="#F0F0F0"]
+		109 [label="Transformer🤖" fillcolor="#F0F0F0"]
+		111 [label="Voltron🐉" fillcolor="#F0F0F0"]
+		117 [label="Atlantis🌊" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		24 [label="Sword🗡️" fillcolor="#F0F0F0"]
+		110 [label="Optimus_Prime🚚" fillcolor="#F0F0F0"]
+		118 [label="Poseidon🌊" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		26 [label="Battle💥" fillcolor="#F0F0F0"]
+		112 [label="Dagger🗡️" fillcolor="#F0F0F0"]
+		113 [label="Longsword🗡️" fillcolor="#F0F0F0"]
+		119 [label="Mermaid🧜‍♀️" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		120 [label="Ariel🧜‍♀️" fillcolor="#F0F0F0"]
+	}
+	{
+		rank=same
+		121 [label="Princess👸" fillcolor="#F0F0F0"]
+	}
+	intermediate_4_3_12 [shape=point height=.15 width=.15]
+	4 -> intermediate_4_3_12
+	3 -> intermediate_4_3_12
+	intermediate_4_3_12 -> 12
+	intermediate_2_3_15 [shape=point height=.15 width=.15]
+	2 -> intermediate_2_3_15
+	3 -> intermediate_2_3_15
+	intermediate_2_3_15 -> 15
+	intermediate_22_21_23 [shape=point height=.15 width=.15]
+	22 -> intermediate_22_21_23
+	21 -> intermediate_22_21_23
+	intermediate_22_21_23 -> 23
+	intermediate_22_11_25 [shape=point height=.15 width=.15]
+	22 -> intermediate_22_11_25
+	11 -> intermediate_22_11_25
+	intermediate_22_11_25 -> 25
+	intermediate_4_4_5 [shape=point height=.15 width=.15]
+	4 -> intermediate_4_4_5
+	4 -> intermediate_4_4_5
+	intermediate_4_4_5 -> 5
+	intermediate_11_62_107 [shape=point height=.15 width=.15]
+	11 -> intermediate_11_62_107
+	62 -> intermediate_11_62_107
+	intermediate_11_62_107 -> 107
+	intermediate_11_7_21 [shape=point height=.15 width=.15]
+	11 -> intermediate_11_7_21
+	7 -> intermediate_11_7_21
+	intermediate_11_7_21 -> 21
+	intermediate_62_20_108 [shape=point height=.15 width=.15]
+	62 -> intermediate_62_20_108
+	20 -> intermediate_62_20_108
+	intermediate_62_20_108 -> 108
+	intermediate_116_115_117 [shape=point height=.15 width=.15]
+	116 -> intermediate_116_115_117
+	115 -> intermediate_116_115_117
+	intermediate_116_115_117 -> 117
+	intermediate_1_1_16 [shape=point height=.15 width=.15]
+	1 -> intermediate_1_1_16
+	1 -> intermediate_1_1_16
+	intermediate_1_1_16 -> 16
+	intermediate_10_9_27 [shape=point height=.15 width=.15]
+	10 -> intermediate_10_9_27
+	9 -> intermediate_10_9_27
+	intermediate_10_9_27 -> 27
+	intermediate_5_4_6 [shape=point height=.15 width=.15]
+	5 -> intermediate_5_4_6
+	4 -> intermediate_5_4_6
+	intermediate_5_4_6 -> 6
+	intermediate_17_12_18 [shape=point height=.15 width=.15]
+	17 -> intermediate_17_12_18
+	12 -> intermediate_17_12_18
+	intermediate_17_12_18 -> 18
+	intermediate_11_4_13 [shape=point height=.15 width=.15]
+	11 -> intermediate_11_4_13
+	4 -> intermediate_11_4_13
+	intermediate_11_4_13 -> 13
+	intermediate_8_4_9 [shape=point height=.15 width=.15]
+	8 -> intermediate_8_4_9
+	4 -> intermediate_8_4_9
+	intermediate_8_4_9 -> 9
+	intermediate_108_62_109 [shape=point height=.15 width=.15]
+	108 -> intermediate_108_62_109
+	62 -> intermediate_108_62_109
+	intermediate_108_62_109 -> 109
+	intermediate_12_2_17 [shape=point height=.15 width=.15]
+	12 -> intermediate_12_2_17
+	2 -> intermediate_12_2_17
+	intermediate_12_2_17 -> 17
+	intermediate_104_17_105 [shape=point height=.15 width=.15]
+	104 -> intermediate_104_17_105
+	17 -> intermediate_104_17_105
+	intermediate_104_17_105 -> 105
+	intermediate_23_22_24 [shape=point height=.15 width=.15]
+	23 -> intermediate_23_22_24
+	22 -> intermediate_23_22_24
+	intermediate_23_22_24 -> 24
+	intermediate_15_1_106 [shape=point height=.15 width=.15]
+	15 -> intermediate_15_1_106
+	1 -> intermediate_15_1_106
+	intermediate_15_1_106 -> 106
+	intermediate_11_17_20 [shape=point height=.15 width=.15]
+	11 -> intermediate_11_17_20
+	17 -> intermediate_11_17_20
+	intermediate_11_17_20 -> 20
+	intermediate_9_4_10 [shape=point height=.15 width=.15]
+	9 -> intermediate_9_4_10
+	4 -> intermediate_9_4_10
+	intermediate_9_4_10 -> 10
+	intermediate_1_4_8 [shape=point height=.15 width=.15]
+	1 -> intermediate_1_4_8
+	4 -> intermediate_1_4_8
+	intermediate_1_4_8 -> 8
+	intermediate_120_119_121 [shape=point height=.15 width=.15]
+	120 -> intermediate_120_119_121
+	119 -> intermediate_120_119_121
+	intermediate_120_119_121 -> 121
+	intermediate_6_4_7 [shape=point height=.15 width=.15]
+	6 -> intermediate_6_4_7
+	4 -> intermediate_6_4_7
+	intermediate_6_4_7 -> 7
+	intermediate_1_3_102 [shape=point height=.15 width=.15]
+	1 -> intermediate_1_3_102
+	3 -> intermediate_1_3_102
+	intermediate_1_3_102 -> 102
+	intermediate_1_2_14 [shape=point height=.15 width=.15]
+	1 -> intermediate_1_2_14
+	2 -> intermediate_1_2_14
+	intermediate_1_2_14 -> 14
+	intermediate_7_4_11 [shape=point height=.15 width=.15]
+	7 -> intermediate_7_4_11
+	4 -> intermediate_7_4_11
+	intermediate_7_4_11 -> 11
+	intermediate_33_9_28 [shape=point height=.15 width=.15]
+	33 -> intermediate_33_9_28
+	9 -> intermediate_33_9_28
+	intermediate_33_9_28 -> 28
+	intermediate_2_17_104 [shape=point height=.15 width=.15]
+	2 -> intermediate_2_17_104
+	17 -> intermediate_2_17_104
+	intermediate_2_17_104 -> 104
+	intermediate_115_13_116 [shape=point height=.15 width=.15]
+	115 -> intermediate_115_13_116
+	13 -> intermediate_115_13_116
+	intermediate_115_13_116 -> 116
+	intermediate_117_118_119 [shape=point height=.15 width=.15]
+	117 -> intermediate_117_118_119
+	118 -> intermediate_117_118_119
+	intermediate_117_118_119 -> 119
+	intermediate_20_11_78 [shape=point height=.15 width=.15]
+	20 -> intermediate_20_11_78
+	11 -> intermediate_20_11_78
+	intermediate_20_11_78 -> 78
+	intermediate_7_6_101 [shape=point height=.15 width=.15]
+	7 -> intermediate_7_6_101
+	6 -> intermediate_7_6_101
+	intermediate_7_6_101 -> 101
+	intermediate_14_2_62 [shape=point height=.15 width=.15]
+	14 -> intermediate_14_2_62
+	2 -> intermediate_14_2_62
+	intermediate_14_2_62 -> 62
+	intermediate_109_108_110 [shape=point height=.15 width=.15]
+	109 -> intermediate_109_108_110
+	108 -> intermediate_109_108_110
+	intermediate_109_108_110 -> 110
+	intermediate_108_5_111 [shape=point height=.15 width=.15]
+	108 -> intermediate_108_5_111
+	5 -> intermediate_108_5_111
+	intermediate_108_5_111 -> 111
+	intermediate_11_13_19 [shape=point height=.15 width=.15]
+	11 -> intermediate_11_13_19
+	13 -> intermediate_11_13_19
+	intermediate_11_13_19 -> 19
+	intermediate_24_23_112 [shape=point height=.15 width=.15]
+	24 -> intermediate_24_23_112
+	23 -> intermediate_24_23_112
+	intermediate_24_23_112 -> 112
+	intermediate_20_17_77 [shape=point height=.15 width=.15]
+	20 -> intermediate_20_17_77
+	17 -> intermediate_20_17_77
+	intermediate_20_17_77 -> 77
+	intermediate_24_24_113 [shape=point height=.15 width=.15]
+	24 -> intermediate_24_24_113
+	24 -> intermediate_24_24_113
+	intermediate_24_24_113 -> 113
+	intermediate_117_115_118 [shape=point height=.15 width=.15]
+	117 -> intermediate_117_115_118
+	115 -> intermediate_117_115_118
+	intermediate_117_115_118 -> 118
+	intermediate_11_21_22 [shape=point height=.15 width=.15]
+	11 -> intermediate_11_21_22
+	21 -> intermediate_11_21_22
+	intermediate_11_21_22 -> 22
+	intermediate_12_1_38 [shape=point height=.15 width=.15]
+	12 -> intermediate_12_1_38
+	1 -> intermediate_12_1_38
+	intermediate_12_1_38 -> 38
+	intermediate_118_119_120 [shape=point height=.15 width=.15]
+	118 -> intermediate_118_119_120
+	119 -> intermediate_118_119_120
+	intermediate_118_119_120 -> 120
+	intermediate_25_24_26 [shape=point height=.15 width=.15]
+	25 -> intermediate_25_24_26
+	24 -> intermediate_25_24_26
+	intermediate_25_24_26 -> 26
+	intermediate_62_14_103 [shape=point height=.15 width=.15]
+	62 -> intermediate_62_14_103
+	14 -> intermediate_62_14_103
+	intermediate_62_14_103 -> 103
+	intermediate_16_1_115 [shape=point height=.15 width=.15]
+	16 -> intermediate_16_1_115
+	1 -> intermediate_16_1_115
+	intermediate_16_1_115 -> 115
+	intermediate_9_1_33 [shape=point height=.15 width=.15]
+	9 -> intermediate_9_1_33
+	1 -> intermediate_9_1_33
+	intermediate_9_1_33 -> 33
+	intermediate_104_7_114 [shape=point height=.15 width=.15]
+	104 -> intermediate_104_7_114
+	7 -> intermediate_104_7_114
+	intermediate_104_7_114 -> 114
+}

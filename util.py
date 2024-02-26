@@ -1,3 +1,4 @@
+from sqlalchemy import create_engine
 from models import Base, NodeModel, EdgeModel
 from langchain_community.embeddings import OllamaEmbeddings
 import numpy as np
@@ -28,7 +29,7 @@ def craft(el1, el2):
         response = subprocess.run(curl_command, shell=True, capture_output=True, text=True)
         data = json.loads(response.stdout)
         # Create a new NodeModel instance with the response data
-        new_node = NodeModel(result=data['result'], emoji=data['emoji'], isNew=data['isNew'], level=max(el1.level, el2.level)+1)
+        new_node = NodeModel(result=data['result'], emoji=data['emoji'], isNew=data['isNew'])
         return new_node
     except Exception as e:
         print(f"Error: {e}")
@@ -42,11 +43,22 @@ def getOrCraft(session, el1, el2):
     else:
         new_node = craft(el1, el2)
         if new_node:
-            session.add(new_node)
-            session.commit()
+            duplicate_node = session.query(NodeModel).filter(NodeModel.result == new_node.result, NodeModel.emoji == new_node.emoji).first()
+            if not duplicate_node:
+                session.add(new_node)
+                session.commit()
+            else:
+                new_node = duplicate_node
             new_edge = EdgeModel(parent1_id=el1.id, parent2_id=el2.id, child_id=new_node.id)
             session.add(new_edge)
             session.commit()
             return new_node, new_edge
 
     return None, None
+
+def createSession():
+    engine = create_engine('sqlite:///graph.db', echo=True)
+    Session = sessionmaker(bind=engine)
+    session = Session()
+    Base.metadata.create_all(engine)
+    return session

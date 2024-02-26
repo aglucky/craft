@@ -9,7 +9,6 @@ class NodeModel(Base):
     result = Column(String, nullable=False)
     emoji = Column(String, nullable=False)
     isNew = Column(Boolean, nullable=False)
-    level = Column(Integer, nullable=False)
 
     def getName(self):
         result_modified = self.result.replace(' ', '_').replace("'", "")
