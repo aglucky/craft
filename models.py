@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Boolean, Integer, ForeignKey
+from sqlalchemy import Column, Index, String, Boolean, Integer, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -11,11 +11,11 @@ class NodeModel(Base):
     isNew = Column(Boolean, nullable=False)
 
     def getName(self):
-        result_modified = self.result.replace(' ', '_').replace("'", "")
-        return f"{result_modified}{self.emoji}"
+        result_modified = self.result#.replace(' ', '_').replace("'", "")
+        return f"{result_modified} {self.emoji}"
 
     def getNode(self):
-        result_modified = self.result.replace(' ', '_').replace("'", "")
+        result_modified = self.result#.replace(' ', '_').replace("'", "")
         return f"{result_modified}"
     
     def __hash__(self):
@@ -31,17 +31,17 @@ class NodeModel(Base):
     def __lt__(self, other):
         if not isinstance(other, NodeModel):
             return NotImplemented
-        return self.level < other.level or (self.level == other.level and self.result < other.result)
+        return  self.result < other.result
 
     def __le__(self, other):
         if not isinstance(other, NodeModel):
             return NotImplemented
-        return self.level < other.level or (self.level == other.level and self.result <= other.result)
+        return self.result <= other.result
 
     def __gt__(self, other):
         if not isinstance(other, NodeModel):
             return NotImplemented
-        return self.level > other.level or (self.level == other.level and self.result > other.result)
+        return self.result > other.result
 
     
 
@@ -51,6 +51,9 @@ class EdgeModel(Base):
     parent1_id = Column(Integer, ForeignKey('nodes.id'), nullable=False)
     parent2_id = Column(Integer, ForeignKey('nodes.id'), nullable=False)
     child_id = Column(Integer, ForeignKey('nodes.id'), nullable=False)
+    __table_args__ = (
+        Index('ix_parents', 'parent1_id', 'parent2_id'),
+    )
         
     def __str__(self):
         return f"Edge from parent1 ID: {self.parent1_id}, parent2 ID: {self.parent2_id} to child ID: {self.child_id}"

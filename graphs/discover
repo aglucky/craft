@@ -1,0 +1,425 @@
+// The Highest Item Graph
+digraph {
+	node [shape=record]
+	Dustarilily [label="Dustarilily 🌸" fillcolor=red style=filled]
+	intermediate_508_421_539 [shape=point]
+	Dustariel -> intermediate_508_421_539
+	Dustilily -> intermediate_508_421_539
+	intermediate_508_421_539 -> Dustarilily
+	Dustariel [label="Dustariel 🌌" fillcolor=white style=""]
+	intermediate_120_420_508 [shape=point]
+	Ariel -> intermediate_120_420_508
+	Dustbunny -> intermediate_120_420_508
+	intermediate_120_420_508 -> Dustariel
+	Dustilily [label="Dustilily 🌸" fillcolor=red style=filled]
+	intermediate_374_340_421 [shape=point]
+	Dewlily -> intermediate_374_340_421
+	Dusticorn -> intermediate_374_340_421
+	intermediate_374_340_421 -> Dustilily
+	Ariel [label="Ariel 🧜‍♀️" fillcolor=white style=""]
+	intermediate_118_119_120 [shape=point]
+	Poseidon -> intermediate_118_119_120
+	Mermaid -> intermediate_118_119_120
+	intermediate_118_119_120 -> Ariel
+	Dustbunny [label="Dustbunny 🐇" fillcolor=white style=""]
+	intermediate_332_331_420 [shape=point]
+	Scarecrow -> intermediate_332_331_420
+	Dustmalaria -> intermediate_332_331_420
+	intermediate_332_331_420 -> Dustbunny
+	Dewlily [label="Dewlily 💧" fillcolor=white style=""]
+	intermediate_370_347_374 [shape=point]
+	Dew -> intermediate_370_347_374
+	Dustlily -> intermediate_370_347_374
+	intermediate_370_347_374 -> Dewlily
+	Dusticorn [label="Dusticorn 🌾" fillcolor=white style=""]
+	intermediate_252_331_340 [shape=point]
+	Unicorn -> intermediate_252_331_340
+	Dustmalaria -> intermediate_252_331_340
+	intermediate_252_331_340 -> Dusticorn
+	Poseidon [label="Poseidon 🌊" fillcolor=white style=""]
+	intermediate_117_115_118 [shape=point]
+	Atlantis -> intermediate_117_115_118
+	Ocean -> intermediate_117_115_118
+	intermediate_117_115_118 -> Poseidon
+	Mermaid [label="Mermaid 🧜‍♀️" fillcolor=white style=""]
+	intermediate_117_118_119 [shape=point]
+	Atlantis -> intermediate_117_118_119
+	Poseidon -> intermediate_117_118_119
+	intermediate_117_118_119 -> Mermaid
+	Scarecrow [label="Scarecrow 🎃" fillcolor=white style=""]
+	intermediate_325_306_332 [shape=point]
+	Hay -> intermediate_325_306_332
+	Spirit -> intermediate_325_306_332
+	intermediate_325_306_332 -> Scarecrow
+	Dustmalaria [label="Dustmalaria 🌞" fillcolor=white style=""]
+	intermediate_329_12_331 [shape=point]
+	Malaria -> intermediate_329_12_331
+	Dust -> intermediate_329_12_331
+	intermediate_329_12_331 -> Dustmalaria
+	Dew [label="Dew 💦" fillcolor=white style=""]
+	intermediate_262_293_370 [shape=point]
+	Fairy -> intermediate_262_293_370
+	Mist -> intermediate_262_293_370
+	intermediate_262_293_370 -> Dew
+	Dustlily [label="Dustlily 🌸" fillcolor=white style=""]
+	intermediate_309_331_347 [shape=point]
+	Lily -> intermediate_309_331_347
+	Dustmalaria -> intermediate_309_331_347
+	intermediate_309_331_347 -> Dustlily
+	Unicorn [label="Unicorn 🦄" fillcolor=white style=""]
+	intermediate_148_241_252 [shape=point]
+	Rainbow -> intermediate_148_241_252
+	Teapot -> intermediate_148_241_252
+	intermediate_148_241_252 -> Unicorn
+	Dustmalaria [label="Dustmalaria 🌞" fillcolor=white style=""]
+	Atlantis [label="Atlantis 🌊" fillcolor=white style=""]
+	intermediate_116_115_117 [shape=point]
+	Island -> intermediate_116_115_117
+	Ocean -> intermediate_116_115_117
+	intermediate_116_115_117 -> Atlantis
+	Ocean [label="Ocean 🌊" fillcolor=white style=""]
+	intermediate_16_1_115 [shape=point]
+	Lake -> intermediate_16_1_115
+	Water -> intermediate_16_1_115
+	intermediate_16_1_115 -> Ocean
+	Atlantis [label="Atlantis 🌊" fillcolor=white style=""]
+	Poseidon [label="Poseidon 🌊" fillcolor=white style=""]
+	Hay [label="Hay 🌾" fillcolor=white style=""]
+	intermediate_266_70_325 [shape=point]
+	Allergy -> intermediate_266_70_325
+	Quagmire -> intermediate_266_70_325
+	intermediate_266_70_325 -> Hay
+	Spirit [label="Spirit 👻" fillcolor=white style=""]
+	intermediate_291_304_306 [shape=point]
+	Geyser -> intermediate_291_304_306
+	Ghost -> intermediate_291_304_306
+	intermediate_291_304_306 -> Spirit
+	Malaria [label="Malaria 🦟" fillcolor=white style=""]
+	intermediate_245_16_329 [shape=point]
+	Mosquito -> intermediate_245_16_329
+	Lake -> intermediate_245_16_329
+	intermediate_245_16_329 -> Malaria
+	Dust [label="Dust 🌫️" fillcolor=white style=""]
+	intermediate_4_3_12 [shape=point]
+	Earth -> intermediate_4_3_12
+	Wind -> intermediate_4_3_12
+	intermediate_4_3_12 -> Dust
+	Fairy [label="Fairy 🧚" fillcolor=white style=""]
+	intermediate_252_10_262 [shape=point]
+	Unicorn -> intermediate_252_10_262
+	Forest -> intermediate_252_10_262
+	intermediate_252_10_262 -> Fairy
+	Mist [label="Mist 🌫️" fillcolor=white style=""]
+	intermediate_106_4_293 [shape=point]
+	Fog -> intermediate_106_4_293
+	Earth -> intermediate_106_4_293
+	intermediate_106_4_293 -> Mist
+	Lily [label="Lily 🌸" fillcolor=white style=""]
+	intermediate_228_16_309 [shape=point]
+	Flower -> intermediate_228_16_309
+	Lake -> intermediate_228_16_309
+	intermediate_228_16_309 -> Lily
+	Dustmalaria [label="Dustmalaria 🌞" fillcolor=white style=""]
+	Rainbow [label="Rainbow 🌈" fillcolor=white style=""]
+	intermediate_146_145_148 [shape=point]
+	Sun -> intermediate_146_145_148
+	Lightning -> intermediate_146_145_148
+	intermediate_146_145_148 -> Rainbow
+	Teapot [label="Teapot 🍵" fillcolor=white style=""]
+	intermediate_234_222_241 [shape=point]
+	Tea -> intermediate_234_222_241
+	Venus -> intermediate_234_222_241
+	intermediate_234_222_241 -> Teapot
+	Island [label="Island 🏝️" fillcolor=white style=""]
+	intermediate_115_13_116 [shape=point]
+	Ocean -> intermediate_115_13_116
+	Rock -> intermediate_115_13_116
+	intermediate_115_13_116 -> Island
+	Ocean [label="Ocean 🌊" fillcolor=white style=""]
+	Lake [label="Lake 🌊" fillcolor=white style=""]
+	intermediate_1_1_16 [shape=point]
+	Water -> intermediate_1_1_16
+	Water -> intermediate_1_1_16
+	intermediate_1_1_16 -> Lake
+	Water [label="Water 💧" fillcolor=white style=""]
+	intermediate_317_16_1 [shape=point]
+	Health -> intermediate_317_16_1
+	Lake -> intermediate_317_16_1
+	intermediate_317_16_1 -> Water
+	Allergy [label="Allergy 🤧" fillcolor=white style=""]
+	intermediate_229_230_266 [shape=point]
+	Garden -> intermediate_229_230_266
+	Pollen -> intermediate_229_230_266
+	intermediate_229_230_266 -> Allergy
+	Quagmire [label="Quagmire 💩" fillcolor=white style=""]
+	intermediate_38_37_70 [shape=point]
+	Mud -> intermediate_38_37_70
+	Swamp -> intermediate_38_37_70
+	intermediate_38_37_70 -> Quagmire
+	Geyser [label="Geyser 🌋" fillcolor=white style=""]
+	intermediate_101_14_291 [shape=point]
+	Eruption -> intermediate_101_14_291
+	Steam -> intermediate_101_14_291
+	intermediate_101_14_291 -> Geyser
+	Ghost [label="Ghost 👻" fillcolor=white style=""]
+	intermediate_37_106_304 [shape=point]
+	Swamp -> intermediate_37_106_304
+	Fog -> intermediate_37_106_304
+	intermediate_37_106_304 -> Ghost
+	Mosquito [label="Mosquito 🦟" fillcolor=white style=""]
+	intermediate_232_37_245 [shape=point]
+	Honey -> intermediate_232_37_245
+	Swamp -> intermediate_232_37_245
+	intermediate_232_37_245 -> Mosquito
+	Lake [label="Lake 🌊" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Wind [label="Wind 🌬️" fillcolor=white style=""]
+	Unicorn [label="Unicorn 🦄" fillcolor=white style=""]
+	Forest [label="Forest 🌲" fillcolor=white style=""]
+	intermediate_9_4_10 [shape=point]
+	Tree -> intermediate_9_4_10
+	Earth -> intermediate_9_4_10
+	intermediate_9_4_10 -> Forest
+	Fog [label="Fog 🌫️" fillcolor=white style=""]
+	intermediate_15_1_106 [shape=point]
+	Smoke -> intermediate_15_1_106
+	Water -> intermediate_15_1_106
+	intermediate_15_1_106 -> Fog
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Flower [label="Flower 🌸" fillcolor=white style=""]
+	intermediate_148_8_228 [shape=point]
+	Rainbow -> intermediate_148_8_228
+	Plant -> intermediate_148_8_228
+	intermediate_148_8_228 -> Flower
+	Lake [label="Lake 🌊" fillcolor=white style=""]
+	Sun [label="Sun ☀️" fillcolor=white style=""]
+	intermediate_145_2_146 [shape=point]
+	Lightning -> intermediate_145_2_146
+	Fire -> intermediate_145_2_146
+	intermediate_145_2_146 -> Sun
+	Lightning [label="Lightning ⚡️" fillcolor=white style=""]
+	intermediate_144_2_145 [shape=point]
+	Cloud -> intermediate_144_2_145
+	Fire -> intermediate_144_2_145
+	intermediate_144_2_145 -> Lightning
+	Tea [label="Tea 🍵" fillcolor=white style=""]
+	intermediate_232_14_234 [shape=point]
+	Honey -> intermediate_232_14_234
+	Steam -> intermediate_232_14_234
+	intermediate_232_14_234 -> Tea
+	Venus [label="Venus ♀️" fillcolor=white style=""]
+	intermediate_20_8_222 [shape=point]
+	Statue -> intermediate_20_8_222
+	Plant -> intermediate_20_8_222
+	intermediate_20_8_222 -> Venus
+	Ocean [label="Ocean 🌊" fillcolor=white style=""]
+	Rock [label="Rock 🪨" fillcolor=white style=""]
+	intermediate_11_4_13 [shape=point]
+	Stone -> intermediate_11_4_13
+	Earth -> intermediate_11_4_13
+	intermediate_11_4_13 -> Rock
+	Water [label="Water 💧" fillcolor=white style=""]
+	Water [label="Water 💧" fillcolor=white style=""]
+	Health [label="Health 💊" fillcolor=white style=""]
+	Lake [label="Lake 🌊" fillcolor=white style=""]
+	Garden [label="Garden 🌱" fillcolor=white style=""]
+	intermediate_228_8_229 [shape=point]
+	Flower -> intermediate_228_8_229
+	Plant -> intermediate_228_8_229
+	intermediate_228_8_229 -> Garden
+	Pollen [label="Pollen 🌱" fillcolor=white style=""]
+	intermediate_228_149_230 [shape=point]
+	Flower -> intermediate_228_149_230
+	Rain -> intermediate_228_149_230
+	intermediate_228_149_230 -> Pollen
+	Mud [label="Mud 💩" fillcolor=white style=""]
+	intermediate_37_4_38 [shape=point]
+	Swamp -> intermediate_37_4_38
+	Earth -> intermediate_37_4_38
+	intermediate_37_4_38 -> Mud
+	Swamp [label="Swamp 🐊" fillcolor=white style=""]
+	intermediate_8_1_37 [shape=point]
+	Plant -> intermediate_8_1_37
+	Water -> intermediate_8_1_37
+	intermediate_8_1_37 -> Swamp
+	Eruption [label="Eruption 🌋" fillcolor=white style=""]
+	intermediate_7_6_101 [shape=point]
+	Lava -> intermediate_7_6_101
+	Volcano -> intermediate_7_6_101
+	intermediate_7_6_101 -> Eruption
+	Steam [label="Steam 💨" fillcolor=white style=""]
+	intermediate_1_2_14 [shape=point]
+	Water -> intermediate_1_2_14
+	Fire -> intermediate_1_2_14
+	intermediate_1_2_14 -> Steam
+	Swamp [label="Swamp 🐊" fillcolor=white style=""]
+	Fog [label="Fog 🌫️" fillcolor=white style=""]
+	Honey [label="Honey 🍯" fillcolor=white style=""]
+	intermediate_231_230_232 [shape=point]
+	Bee -> intermediate_231_230_232
+	Pollen -> intermediate_231_230_232
+	intermediate_231_230_232 -> Honey
+	Swamp [label="Swamp 🐊" fillcolor=white style=""]
+	Tree [label="Tree 🌳" fillcolor=white style=""]
+	intermediate_8_4_9 [shape=point]
+	Plant -> intermediate_8_4_9
+	Earth -> intermediate_8_4_9
+	intermediate_8_4_9 -> Tree
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Smoke [label="Smoke 💨" fillcolor=white style=""]
+	intermediate_2_3_15 [shape=point]
+	Fire -> intermediate_2_3_15
+	Wind -> intermediate_2_3_15
+	intermediate_2_3_15 -> Smoke
+	Water [label="Water 💧" fillcolor=white style=""]
+	Rainbow [label="Rainbow 🌈" fillcolor=white style=""]
+	Plant [label="Plant 🌱" fillcolor=white style=""]
+	intermediate_1_4_8 [shape=point]
+	Water -> intermediate_1_4_8
+	Earth -> intermediate_1_4_8
+	intermediate_1_4_8 -> Plant
+	Lightning [label="Lightning ⚡️" fillcolor=white style=""]
+	Fire [label="Fire 🔥" fillcolor=white style=""]
+	intermediate_75_61_2 [shape=point]
+	Tornado -> intermediate_75_61_2
+	Fuel -> intermediate_75_61_2
+	intermediate_75_61_2 -> Fire
+	Cloud [label="Cloud ☁️" fillcolor=white style=""]
+	intermediate_15_15_144 [shape=point]
+	Smoke -> intermediate_15_15_144
+	Smoke -> intermediate_15_15_144
+	intermediate_15_15_144 -> Cloud
+	Fire [label="Fire 🔥" fillcolor=white style=""]
+	Honey [label="Honey 🍯" fillcolor=white style=""]
+	Steam [label="Steam 💨" fillcolor=white style=""]
+	Statue [label="Statue 🗽" fillcolor=white style=""]
+	intermediate_11_17_20 [shape=point]
+	Stone -> intermediate_11_17_20
+	Ash -> intermediate_11_17_20
+	intermediate_11_17_20 -> Statue
+	Plant [label="Plant 🌱" fillcolor=white style=""]
+	Stone [label="Stone 🪨" fillcolor=white style=""]
+	intermediate_7_4_11 [shape=point]
+	Lava -> intermediate_7_4_11
+	Earth -> intermediate_7_4_11
+	intermediate_7_4_11 -> Stone
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Flower [label="Flower 🌸" fillcolor=white style=""]
+	Plant [label="Plant 🌱" fillcolor=white style=""]
+	Flower [label="Flower 🌸" fillcolor=white style=""]
+	Rain [label="Rain 🌧️" fillcolor=white style=""]
+	intermediate_148_145_149 [shape=point]
+	Rainbow -> intermediate_148_145_149
+	Lightning -> intermediate_148_145_149
+	intermediate_148_145_149 -> Rain
+	Swamp [label="Swamp 🐊" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Plant [label="Plant 🌱" fillcolor=white style=""]
+	Water [label="Water 💧" fillcolor=white style=""]
+	Lava [label="Lava 🌋" fillcolor=white style=""]
+	intermediate_6_4_7 [shape=point]
+	Volcano -> intermediate_6_4_7
+	Earth -> intermediate_6_4_7
+	intermediate_6_4_7 -> Lava
+	Volcano [label="Volcano 🌋" fillcolor=white style=""]
+	intermediate_5_4_6 [shape=point]
+	Mountain -> intermediate_5_4_6
+	Earth -> intermediate_5_4_6
+	intermediate_5_4_6 -> Volcano
+	Water [label="Water 💧" fillcolor=white style=""]
+	Fire [label="Fire 🔥" fillcolor=white style=""]
+	Bee [label="Bee 🐝" fillcolor=white style=""]
+	intermediate_225_230_231 [shape=point]
+	Love -> intermediate_225_230_231
+	Pollen -> intermediate_225_230_231
+	intermediate_225_230_231 -> Bee
+	Pollen [label="Pollen 🌱" fillcolor=white style=""]
+	Plant [label="Plant 🌱" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Fire [label="Fire 🔥" fillcolor=white style=""]
+	Wind [label="Wind 🌬️" fillcolor=white style=""]
+	Water [label="Water 💧" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Tornado [label="Tornado 🌪️" fillcolor=white style=""]
+	intermediate_71_3_75 [shape=point]
+	Tar -> intermediate_71_3_75
+	Wind -> intermediate_71_3_75
+	intermediate_71_3_75 -> Tornado
+	Fuel [label="Fuel ⛽" fillcolor=white style=""]
+	intermediate_60_2_61 [shape=point]
+	Oil -> intermediate_60_2_61
+	Fire -> intermediate_60_2_61
+	intermediate_60_2_61 -> Fuel
+	Smoke [label="Smoke 💨" fillcolor=white style=""]
+	Smoke [label="Smoke 💨" fillcolor=white style=""]
+	Stone [label="Stone 🪨" fillcolor=white style=""]
+	Ash [label="Ash 🌋" fillcolor=white style=""]
+	intermediate_12_2_17 [shape=point]
+	Dust -> intermediate_12_2_17
+	Fire -> intermediate_12_2_17
+	intermediate_12_2_17 -> Ash
+	Lava [label="Lava 🌋" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Rainbow [label="Rainbow 🌈" fillcolor=white style=""]
+	Lightning [label="Lightning ⚡️" fillcolor=white style=""]
+	Volcano [label="Volcano 🌋" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Mountain [label="Mountain 🏔️" fillcolor=white style=""]
+	intermediate_4_4_5 [shape=point]
+	Earth -> intermediate_4_4_5
+	Earth -> intermediate_4_4_5
+	intermediate_4_4_5 -> Mountain
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Love [label="Love ❤️" fillcolor=white style=""]
+	intermediate_148_222_225 [shape=point]
+	Rainbow -> intermediate_148_222_225
+	Venus -> intermediate_148_222_225
+	intermediate_148_222_225 -> Love
+	Pollen [label="Pollen 🌱" fillcolor=white style=""]
+	Tar [label="Tar 🎶" fillcolor=white style=""]
+	intermediate_70_60_71 [shape=point]
+	Quagmire -> intermediate_70_60_71
+	Oil -> intermediate_70_60_71
+	intermediate_70_60_71 -> Tar
+	Wind [label="Wind 🌬️" fillcolor=white style=""]
+	Oil [label="Oil 🛢️" fillcolor=white style=""]
+	intermediate_45_1_60 [shape=point]
+	Fossil -> intermediate_45_1_60
+	Water -> intermediate_45_1_60
+	intermediate_45_1_60 -> Oil
+	Fire [label="Fire 🔥" fillcolor=white style=""]
+	Dust [label="Dust 🌫️" fillcolor=white style=""]
+	Fire [label="Fire 🔥" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Rainbow [label="Rainbow 🌈" fillcolor=white style=""]
+	Venus [label="Venus ♀️" fillcolor=white style=""]
+	Quagmire [label="Quagmire 💩" fillcolor=white style=""]
+	Oil [label="Oil 🛢️" fillcolor=white style=""]
+	Fossil [label="Fossil 🦴" fillcolor=white style=""]
+	intermediate_44_4_45 [shape=point]
+	Dinosaur -> intermediate_44_4_45
+	Earth -> intermediate_44_4_45
+	intermediate_44_4_45 -> Fossil
+	Water [label="Water 💧" fillcolor=white style=""]
+	Dinosaur [label="Dinosaur 🦖" fillcolor=white style=""]
+	intermediate_43_4_44 [shape=point]
+	Lizard -> intermediate_43_4_44
+	Earth -> intermediate_43_4_44
+	intermediate_43_4_44 -> Dinosaur
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Lizard [label="Lizard 🦎" fillcolor=white style=""]
+	intermediate_40_37_43 [shape=point]
+	Dragon -> intermediate_40_37_43
+	Swamp -> intermediate_40_37_43
+	intermediate_40_37_43 -> Lizard
+	Earth [label="Earth 🌍" fillcolor=white style=""]
+	Dragon [label="Dragon 🐉" fillcolor=white style=""]
+	intermediate_37_2_40 [shape=point]
+	Swamp -> intermediate_37_2_40
+	Fire -> intermediate_37_2_40
+	intermediate_37_2_40 -> Dragon
+	Swamp [label="Swamp 🐊" fillcolor=white style=""]
+	Swamp [label="Swamp 🐊" fillcolor=white style=""]
+	Fire [label="Fire 🔥" fillcolor=white style=""]
+}
